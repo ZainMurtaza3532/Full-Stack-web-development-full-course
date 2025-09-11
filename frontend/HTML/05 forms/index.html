@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Form</title>
+</head>
+<body>
+  <h2>Advanced Form Example</h2>
+
+  <form >
+    
+    <!-- Text input -->
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" ><br><br>
+
+    <!-- Email field -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" ><br><br>
+
+    <!-- Password field -->
+    <label >Password:</label>
+    <input type="password"  name="password" ><br><br>
+
+    <!-- Number -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" ><br><br>
+
+    <!-- Radio buttons -->
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkbox -->
+    <p>Hobbies:</p>
+    <input type="checkbox" id="coding" name="hobbies" value="coding">
+    <label for="coding">Coding</label><br>
+    <input type="checkbox" id="sports" name="hobbies" value="sports">
+    <label for="sports">Sports</label><br>
+    <input type="checkbox" id="reading" name="hobbies" value="reading">
+    <label for="reading">Reading</label><br><br>
+
+    <!-- Dropdown -->
+    <label for="country">Select Country:</label>
+    <select id="country" name="country">
+      <option value="">--Choose--</option>
+      <option value="pk">Pakistan</option>
+      <option value="in">India</option>
+      <option value="us">USA</option>
+    </select><br><br>
+
+    <!-- Textarea -->
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+    <!-- File upload -->
+    <label for="file">Upload File:</label>
+    <input type="file" id="file" name="file"><br><br>
+
+    <!-- Date -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <!-- Color -->
+    <label for="color">Favorite Color:</label><br>
+    <input type="color" id="color" name="color"><br><br>
+
+    <!-- Range -->
+    <label for="experience">Experience (0-10):</label><br>
+    <input type="range" id="experience" name="experience" ><br><br>
+
+    <!-- Submit and Reset -->
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Reset">
+    
+  </form>
+</body>
+</html>

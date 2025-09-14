@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="HTML Project with all tags">
+  <meta name="keywords" content="HTML, project, tags">
+  <meta name="author" content="Zain Murtaza">
+  <title>HTML Project - All Tags</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My HTML Project</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#form">Form</a></li>
+        <li><a href="#table">Table</a></li>
+        <li><a href="#footer">Footer</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Section</h2>
+    <p>This project demonstrates <strong>all major HTML tags</strong>. 
+       HTML stands for <abbr title="HyperText Markup Language">HTML</abbr>. 
+       Here’s a <mark>highlighted text</mark> and <em>emphasized text</em>.</p>
+
+    <blockquote>
+      "HTML is the backbone of web development."
+    </blockquote>
+
+    <address>
+      Written by <a href="mailto:example@mail.com">Zain Murtaza</a><br>
+      Visit us at:<br>
+      www.example.com<br>
+      Lahore, Pakistan
+    </address>
+    <hr>
+  </section>
+
+  <!-- Media Section -->
+  <section id="media">
+    <h2>Media Section</h2>
+    <figure>
+      <img src="https://via.placeholder.com/200" alt="Sample Image">
+      <figcaption>This is an image with caption</figcaption>
+    </figure>
+
+    <audio controls>
+      <source src="sample.mp3" type="audio/mpeg">
+      Your browser does not support audio.
+    </audio>
+
+    <video width="320" height="240" controls>
+      <source src="sample.mp4" type="video/mp4">
+      Your browser does not support video.
+    </video>
+
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000;">
+      Canvas not supported.
+    </canvas>
+    <hr>
+  </section>
+
+  <!-- Form Section -->
+  <section id="form">
+    <h2>Form Section</h2>
+    <form>
+      <fieldset>
+        <legend>User Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob"><br><br>
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" name="hobbies" value="reading"> Reading
+        <input type="checkbox" name="hobbies" value="sports"> Sports<br><br>
+
+        <label for="country">Country:</label>
+        <select id="country">
+          <option>Pakistan</option>
+          <option>India</option>
+          <option>USA</option>
+        </select><br><br>
+
+        <textarea rows="3" cols="30" placeholder="Write something..."></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </fieldset>
+    </form>
+    <hr>
+  </section>
+
+  <!-- Table Section -->
+  <section id="table">
+    <h2>Table Section</h2>
+    <table border="1">
+      <caption>Student Information</caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Roll No</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ali</td>
+          <td>101</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>Ayesha</td>
+          <td>102</td>
+          <td>90</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">End of Table</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr>
+  </section>
+
+  <!-- List Section -->
+  <section>
+    <h2>Lists Section</h2>
+    <h3>Ordered List</h3>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ol>
+
+    <h3>Unordered List</h3>
+    <ul>
+      <li>Apple</li>
+      <li>Mango</li>
+      <li>Banana</li>
+    </ul>
+
+    <h3>Definition List</h3>
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+    </dl>
+    <hr>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="footer">
+    <p>&copy; 2025 My HTML Project | <small>All Rights Reserved</small></p>
+    <progress value="70" max="100"></progress> 70% Complete
+    <br>
+    <meter value="0.6">60%</meter>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* External styling */
+body {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Element Selector */
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Pseudo-class */
+p:hover {
+  color: blue;
+  cursor: pointer;
+}

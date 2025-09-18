@@ -3,21 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Position Example</title>
+  <title>CSS Position Project</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>CSS Position Property</h1>
+  <!-- Fixed Navbar -->
+  <nav class="navbar">
+    <h2>My Website</h2>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
 
-  <div class="box static">Static</div>
-  <div class="box relative">Relative</div>
-  <div class="parent">
-    <div class="box absolute">Absolute</div>
-  </div>
-  <div class="box fixed">Fixed</div>
-  <div class="box sticky">Sticky</div>
+  <!-- Banner (Relative + Absolute text overlay) -->
+  <section class="banner">
+    <img src="https://picsum.photos/1200/400" alt="Banner">
+    <h1 class="banner-text">Welcome to My Site</h1>
+  </section>
 
-  <p>Scroll down to see sticky and fixed effect...</p>
+  <!-- Sticky Heading -->
+  <h2 class="sticky-title">Sticky Section Title</h2>
+
+  <!-- Cards (Static, Relative, Absolute demo) -->
+  <section class="cards">
+    <div class="card static">Static Box</div>
+    <div class="card relative">Relative Box</div>
+    <div class="card absolute-container">
+      <div class="absolute">Absolute Box</div>
+    </div>
+  </section>
+
+  <p class="info">Scroll down to test Sticky and Fixed elements.</p>
   <div style="height: 1200px;"></div>
 </body>
 </html>

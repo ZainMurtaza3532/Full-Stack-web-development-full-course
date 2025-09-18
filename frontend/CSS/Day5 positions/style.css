@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: darkblue;
+}
+
+.box {
+  width: 150px;
+  height: 60px;
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+/* 1. Static (default) */
+.static {
+  position: static;
+  background: gray;
+}
+
+/* 2. Relative */
+.relative {
+  position: relative;
+  top: 20px;   /* move down */
+  left: 30px;  /* move right */
+  background: green;
+}
+
+/* 3. Absolute (inside parent) */
+.parent {
+  position: relative; /* parent positioned */
+  height: 150px;
+  background: #ddd;
+}
+
+.absolute {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: red;
+}
+
+/* 4. Fixed */
+.fixed {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: blue;
+  z-index: 1000;
+}
+
+/* 5. Sticky */
+.sticky {
+  position: sticky;
+  top: 0; /* sticks when scroll reaches top */
+  background: orange;
+}

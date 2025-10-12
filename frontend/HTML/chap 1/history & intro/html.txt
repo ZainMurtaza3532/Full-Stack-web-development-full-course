@@ -1,0 +1,174 @@
+🕰️ History of HTML (HyperText Markup Language)
+____________________________________________________________________
+🌍 1. The Beginning — 1989–1991
+
+Inventor: Tim Berners-Lee, a British scientist at CERN (European Organization for Nuclear Research).
+
+Purpose: He wanted an easy way for scientists to share documents over the internet.
+
+1990: He created:
+
+The first web browser — WorldWideWeb (later called Nexus)
+
+The first web server — httpd
+
+The first web page explaining what the World Wide Web is.
+
+1991: Tim Berners-Lee published the first version of HTML (HTML 1.0).
+
+____________________________________________________________________
+🧩 2. HTML 1.0 — 1991
+
+Very basic version
+
+Could only display simple text, links, and basic formatting (like headings, paragraphs, lists).
+
+Used for static pages only.
+
+No images, tables, or styles.
+
+📘 Example (HTML 1.0 style):
+
+<html>
+  <head>
+    <title>My First Page</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>This is my first web page.</p>
+    <a href="https://www.example.com">Visit Example</a>
+  </body>
+</html>
+
+____________________________________________________________________
+📈 3. HTML 2.0 — 1995
+
+Developed by the Internet Engineering Task Force (IETF).
+
+Added support for:
+
+Forms (text fields, checkboxes)
+
+Tables
+
+Basic layout improvements
+
+Became the first official HTML standard.
+
+____________________________________________________________________
+🎨 4. HTML 3.2 — 1997
+
+Standardized by W3C (World Wide Web Consortium).
+
+Added support for:
+
+Images, applets
+
+Tables and text flow
+
+More presentational tags (like <font>, <center>)
+
+CSS (Cascading Style Sheets) was introduced around this time to separate design from structure.
+
+____________________________________________________________________
+🚀 5. HTML 4.01 — 1999
+
+A major improvement!
+
+Introduced:
+
+Better forms and scripting support (JavaScript)
+
+Separation of content and style (using CSS)
+
+Accessibility features (for screen readers)
+
+Three types:
+
+Strict – clean coding (no layout tags like <font>)
+
+Transitional – allowed some old tags
+
+Frameset – for pages using frames
+
+____________________________________________________________________
+💡 6. XHTML 1.0 — 2000
+
+A reformulation of HTML 4.01 using XML syntax.
+
+Stricter and more structured.
+
+Every tag must be closed properly.
+
+Example:
+
+<img src="photo.jpg" alt="photo" />
+
+
+However, it was too strict and developers found it difficult to maintain.
+
+____________________________________________________________________
+🌐 7. HTML5 — 2014 (W3C Recommendation)
+
+Jointly developed by W3C and WHATWG (Web Hypertext Application Technology Working Group).
+
+Focused on:
+
+Multimedia support — <video>, <audio>, <canvas>
+
+Semantic tags — <header>, <footer>, <article>, <section>
+
+APIs — Geolocation, Local Storage, Drag-and-Drop, Web Workers
+
+Responsive design
+
+No need for Flash or plugins!
+
+💻 Example (HTML5):
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Example</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+  <section>
+    <article>
+      <h2>About HTML5</h2>
+      <p>HTML5 introduced semantic elements and multimedia support.</p>
+    </article>
+  </section>
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+</body>
+</html>
+
+____________________________________________________________________
+🔄 8. HTML Living Standard — 2017–Present
+
+Maintained by: WHATWG
+
+HTML is now a "living standard", meaning it is continuously updated (no more numbered versions like HTML6, etc.).
+
+New features and improvements are added regularly.
+
+Modern browsers automatically support updates.
+
+____________________________________________________________________
+🧠 Summary Table
+____________________________________________________________________
+Version	     Year	Developed By	    Key Features
+____________________________________________________________________
+HTML1.0	     1991	Tim Berners-Lee	    Basic text and links
+HTML2.0	     1995	IETF	            Forms, tables
+HTML3.2	     1997	W3C	                Images, scripts, basic styling
+HTML4.01	 1999	W3C	                CSS, JavaScript, accessibility
+XHTML1.0	 2000	W3C	                XML syntax, stricter rules
+HTML5	     2014	W3C & WHATWG	    Multimedia, semantics, APIs
+Living Standard	2017–Now	WHATWG	    Continuous updates

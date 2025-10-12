@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Lists, Tables, and Forms Example</title>
+</head>
+<body>
+
+  <h1 >HTML Lists, Tables, and Forms</h1>
+  <hr>
+
+  <!-- ========== LISTS SECTION ========== -->
+  <h2>1. Lists in HTML</h2>
+
+  <!-- Unordered List -->
+  <h3>Unordered List</h3>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <!-- Ordered List -->
+  <h3>Ordered List</h3>
+  <ol>
+    <li>Learn HTML</li>
+    <li>Learn CSS</li>
+    <li>Learn JavaScript</li>
+  </ol>
+
+  <!-- Nested List -->
+  <h3>Nested List</h3>
+  <ul>
+    <li>Frontend
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </li>
+    <li>Backend
+      <ul>
+        <li>PHP</li>
+        <li>Node.js</li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- Description List -->
+  <h3>Description List</h3>
+  <dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+    <dt>JS</dt>
+    <dd>JavaScript — adds interactivity</dd>
+  </dl>
+
+  <hr>
+
+  <!-- ========== TABLES SECTION ========== -->
+  <h2>2. Tables in HTML</h2>
+
+  <table border="1"  >
+    <caption><b>Student Record Table</b></caption>
+    <tr >
+      <th>Roll No</th>
+      <th>Name</th>
+      <th>Class</th>
+      <th>Marks</th>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>Ali</td>
+      <td>10th</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>Zain</td>
+      <td>10th</td>
+      <td>420</td>
+    </tr>
+    <tr>
+      <td>103</td>
+      <td>Ayesha</td>
+      <td>10th</td>
+      <td>480</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <!-- ========== FORMS SECTION ========== -->
+  <h2>3. Forms in HTML</h2>
+
+  <form action="#" method="post">
+    <table >
+      <tr>
+        <td><label for="name">Full Name:</label></td>
+        <td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+      </tr>
+
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" placeholder="example@email.com"></td>
+      </tr>
+
+      <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" id="password" name="password"></td>
+      </tr>
+
+      <tr>
+        <td>Gender:</td>
+        <td>
+          <input type="radio" id="male" name="gender" value="Male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="Female">
+          <label for="female">Female</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Hobbies:</td>
+        <td>
+          <input type="checkbox" id="read" name="hobby" value="Reading">
+          <label for="read">Reading</label>
+          <input type="checkbox" id="play" name="hobby" value="Playing">
+          <label for="play">Playing</label>
+          <input type="checkbox" id="travel" name="hobby" value="Traveling">
+          <label for="travel">Traveling</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="country">Country:</label></td>
+        <td>
+          <select id="country" name="country">
+            <option value="">--Select Country--</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="message">Message:</label></td>
+        <td><textarea id="message" name="message" rows="4" cols="30" placeholder="Write your message here..."></textarea></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td><input type="submit" value="Submit Form"></td>
+      </tr>
+    </table>
+  </form>
+
+  <hr>
+
+  <footer >
+    <p>© 2025 HTML Practice Page — Lists | Tables | Forms</p>
+  </footer>
+
+</body>
+</html>

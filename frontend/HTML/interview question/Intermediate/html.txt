@@ -1,0 +1,34 @@
+🟡 Intermediate HTML Interview Questions
+
+What is the difference between relative and absolute URLs?
+→ Relative: path relative to current page; Absolute: full URL with domain name.
+_________________________________________________________________________
+What is the difference between <strong> and <b>?
+→ <strong> has semantic meaning (important text), while <b> just makes text bold.
+_________________________________________________________________________
+What is the difference between <em> and <i>?
+→ <em> adds emphasis (semantic), <i> is for italic style only.
+_________________________________________________________________________
+What is the purpose of the alt attribute in <img> tag?
+→ It provides alternative text if the image cannot load (and for screen readers).
+_________________________________________________________________________
+What are block-level and inline elements?
+→ Block: starts on new line (<div>, <p>, <section>)
+Inline: stays in line (<span>, <a>, <img>).
+_________________________________________________________________________
+What is the use of <iframe> tag?
+→ Embeds another webpage or document within the current page.
+_________________________________________________________________________
+What is the difference between <ol>, <ul>, and <dl>?
+→ Ordered list, unordered list, and definition list respectively.
+_________________________________________________________________________
+What is the viewport meta tag used for?
+→ Makes pages responsive on mobile:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+_________________________________________________________________________
+What are HTML attributes?
+→ Extra information in opening tag, e.g. <img src="image.jpg" alt="text">.
+_________________________________________________________________________
+What is the purpose of <form> element?
+→ Used to collect user input with fields like <input>, <textarea>, <select>.
+_________________________________________________________________________

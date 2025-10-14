@@ -1,0 +1,32 @@
+🟢 Basic HTML Interview Questions
+
+What is HTML?
+→ HTML (HyperText Markup Language) is used to structure content on web pages.
+_________________________________________________________________________
+What are HTML tags?
+→ Tags are markup elements enclosed in < > brackets. Example: <p>Paragraph</p>.
+_________________________________________________________________________
+What is the difference between <div> and <span>?
+→ <div> is a block-level element; <span> is inline.
+_________________________________________________________________________
+What is the purpose of the <!DOCTYPE html> declaration?
+→ It defines the document type and version of HTML (HTML5 in modern pages).
+_________________________________________________________________________
+What are semantic HTML elements?
+→ Elements that clearly describe their meaning: <header>, <footer>, <article>, <section>, etc.
+_________________________________________________________________________
+What is the difference between HTML and XHTML?
+→ XHTML is stricter (every tag must be closed, attributes in lowercase, quotes required).
+_________________________________________________________________________
+What is the difference between <head> and <body>?
+→ <head> contains metadata, title, and links to styles/scripts; <body> contains visible page content.
+_________________________________________________________________________
+What are empty elements in HTML?
+→ Tags without closing tag or content: <br>, <hr>, <img>, <input>, <meta>, etc.
+_________________________________________________________________________
+What is the use of <meta> tag?
+→ It defines metadata like character encoding, author, description, and viewport settings.
+_________________________________________________________________________
+What is the purpose of <a> tag?
+→ Used to create hyperlinks: <a href="https://example.com">Click Me</a>.
+_________________________________________________________________________

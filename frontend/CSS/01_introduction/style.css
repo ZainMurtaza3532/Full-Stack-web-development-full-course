@@ -1,0 +1,28 @@
+/* External CSS File */
+
+/* Element selector */
+body {
+    background-color: #eef7f2;
+}
+
+/* Class selector */
+.box {
+    background-color: white;
+    border: 2px solid #2e8b57;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Element selector */
+h2 {
+    color: #2e8b57;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    color: #444;
+}

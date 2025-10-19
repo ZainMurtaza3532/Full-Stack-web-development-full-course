@@ -1,0 +1,73 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* 1️⃣ Color Name */
+.color-name {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* 2️⃣ HEX Color */
+.hex-color {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* 3️⃣ RGB Color */
+.rgb-color {
+    background-color: rgb(255, 165, 0); /* orange */
+    color: black;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* 4️⃣ RGBA Color */
+.rgba-color {
+    background-color: rgba(255, 0, 0, 0.5); /* semi-transparent red */
+    color: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* 5️⃣ HSL Color */
+.hsl-color {
+    background-color: hsl(120, 60%, 50%); /* greenish */
+    color: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* 6️⃣ Gradient Background */
+.gradient-box {
+    background: linear-gradient(45deg, #ff6b6b, #6bafff);
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}

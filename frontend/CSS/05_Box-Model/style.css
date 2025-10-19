@@ -1,0 +1,29 @@
+/* Basic Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Box Model Example */
+.box {
+  background-color: #e3f2fd;     /* Content background */
+  color: #333;
+  width: 300px;                  /* Content width */
+  margin: 40px auto;             /* Outer space (centered) */
+  border: 5px solid #2196f3;     /* Border thickness + color */
+  padding: 20px;                 /* Inner space */
+  border-radius: 10px;           /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Optional: visualize each layer */
+.box p {
+  background-color: #bbdefb;
+  padding: 10px;
+}

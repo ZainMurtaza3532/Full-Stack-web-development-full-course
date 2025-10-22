@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Enable Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-rows: auto;              /* Rows adjust automatically */
+  gap: 20px;                             /* Space between items */
+  background-color: #e3f2fd;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #2196f3;
+}
+
+/* Grid Items */
+.box {
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.box1 { background-color: #2196f3; }
+.box2 { background-color: #4caf50; }
+.box3 { background-color: #ff9800; }
+.box4 { background-color: #f44336; }
+.box5 { background-color: #9c27b0; }
+.box6 { background-color: #00bcd4; }
+
+/* Make some boxes span multiple cells */
+.box1 {
+  grid-column: span 3; /* spans 2 columns */
+}
+
+.box3 {
+  grid-row: span 3; /* spans 2 rows */
+}
+
+.box4{
+    grid-column: span 2; /* spans 2 columns */
+}

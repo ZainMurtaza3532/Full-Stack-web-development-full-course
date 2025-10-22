@@ -1,0 +1,47 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+.heading {
+  text-align: center;
+  color: #2196f3;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.para {
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+
+.highlight {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+  color: #757575;
+}
+
+.underline-text {
+  text-decoration: underline;
+  font-size: 22px;
+  color: #4caf50;
+}

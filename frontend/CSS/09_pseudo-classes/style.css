@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Link States */
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 20px;
+  background: #2196f3;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+/* Change color when hovered */
+.link:hover {
+  background: #1976d2;
+}
+
+/* Change color when clicked */
+.link:active {
+  background: #0d47a1;
+}
+
+/* Input focus effect */
+.input {
+  display: block;
+  margin: 30px auto;
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+/* When focused */
+.input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76,175,80,0.5);
+  outline: none;
+}
+
+/* List Styling */
+.list {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.list li {
+  background: #eee;
+  margin: 8px auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 6px;
+}
+
+/* Target specific children */
+.list li:first-child {
+  background: #c8e6c9; /* light green */
+}
+
+.list li:last-child {
+  background: #ffcdd2; /* light red */
+}
+
+.list li:nth-child(2) {
+  background: #91abbe; /* light blue */
+}

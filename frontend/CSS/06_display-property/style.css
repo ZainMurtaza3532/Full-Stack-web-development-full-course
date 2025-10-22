@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* 1️⃣ Block */
+.block-box {
+  display: block;
+  background-color: #ffcccb;
+  border: 2px solid red;
+  margin: 10px auto;
+  width: 60%;
+  padding: 10px;
+}
+
+/* 2️⃣ Inline */
+.inline-box {
+  display: inline;
+  background-color: #90ee90;
+  border: 1px solid green;
+  padding: 5px;
+}
+
+/* 3️⃣ Inline-block */
+.inline-block-box {
+  display: inline-block;
+  background-color: #add8e6;
+  border: 2px solid blue;
+  width: 150px;
+  margin: 5px;
+  padding: 10px;
+}
+
+/* 4️⃣ None */
+.none-box {
+  display: none;
+}
+
+/* 5️⃣ Flex */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 2px solid #333;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.flex-item {
+  background-color: #ffa500;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+/* 6️⃣ Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  gap: 10px;
+  justify-content: center;
+  background-color: #e0e0e0;
+  padding: 10px;
+  border: 2px solid #333;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.grid-item {
+  background-color: #9370db;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}

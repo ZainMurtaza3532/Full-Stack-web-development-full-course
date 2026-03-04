@@ -1,0 +1,18 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Box Model Example */
+.box {
+    width: 300px;              /* Content width */
+    height: 150px;             /* Content height */
+
+    padding: 20px;             /* Space inside border */
+    border: 5px solid #3498db; /* Border */
+    margin: 40px;              /* Space outside border */
+
+    background-color: #ecf0f1;
+    text-align: center;
+    line-height: 150px;
+}

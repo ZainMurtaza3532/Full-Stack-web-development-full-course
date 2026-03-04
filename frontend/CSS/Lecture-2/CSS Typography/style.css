@@ -1,0 +1,39 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fb;
+}
+
+/* Heading Typography */
+.main-heading {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #2c3e503c;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Paragraph Styling */
+.paragraph {
+    font-size: 18px;
+    line-height: 1.8;
+    color: hsl(210, 72%, 40%);
+    margin: 20px;
+}
+
+/* Highlight Text */
+.highlight {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    background-color: rgb(181, 220, 245);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+

@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Common Box Style */
+.box {
+    width: 200px;
+    height: 80px;
+    background-color: lightblue;
+    margin: 10px 0;
+    text-align: center;
+    line-height: 80px;
+    border: 2px solid black;
+}
+
+/* 1️⃣ Static (default) */
+.static {
+    position: static;
+}
+
+/* 2️⃣ Relative */
+.relative {
+    position: relative;
+    left: 50px;
+    background-color: lightgreen;
+}
+
+/* 3️⃣ Absolute */
+.parent {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: #f4f4f4;
+    border: 2px dashed black;
+    margin-bottom: 40px;
+}
+
+.absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: coral;
+}
+
+/* 4️⃣ Fixed */
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: gold;
+}
+
+/* 5️⃣ Sticky */
+.sticky-box {
+    position: sticky;
+    top: 0;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.content {
+    height: 1000px;
+}

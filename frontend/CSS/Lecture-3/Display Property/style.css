@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Block Example */
+.block {
+    display: block;
+    width: 300px;
+    height: 80px;
+    background-color: lightblue;
+    margin: 10px 0;
+    text-align: center;
+    line-height: 80px;
+}
+
+/* Inline Example */
+.inline {
+    display: inline;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Inline-Block Example */
+.inline-block {
+    display: inline-block;
+    width: 120px;
+    height: 80px;
+    background-color: lightgreen;
+    margin: 10px;
+    text-align: center;
+    line-height: 80px;
+}

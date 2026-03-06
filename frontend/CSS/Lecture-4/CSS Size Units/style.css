@@ -1,0 +1,63 @@
+body{
+    font-family: Arial;
+    margin: 20px;
+}
+
+/* PX Example */
+.px-box{
+    width: 300px;
+    height: 80px;
+    background: lightblue;
+    text-align: center;
+    line-height: 80px;
+}
+
+/* Percentage Example */
+.parent{
+    width: 400px;
+    background: #eee;
+    padding: 10px;
+}
+
+.percent-box{
+    width: 50%;
+    height: 80px;
+    background: lightgreen;
+    text-align: center;
+    line-height: 80px;
+}
+
+/* VW Example */
+.vw-box{
+    width: 50vw;
+    height: 80px;
+    background: orange;
+    text-align: center;
+    line-height: 80px;
+}
+
+/* VH Example */
+.vh-box{
+    height: 40vh;
+    background: pink;
+    text-align: center;
+    line-height: 40vh;
+}
+
+/* EM Example */
+.em-parent{
+    font-size: 20px;
+}
+
+.em-text{
+    font-size: 2em;
+}
+
+/* REM Example */
+html{
+    font-size: 16px;
+}
+
+.rem-text{
+    font-size: 2rem;
+}

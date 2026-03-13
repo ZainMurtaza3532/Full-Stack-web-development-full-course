@@ -1,0 +1,26 @@
+body{
+    font-family: Arial;
+    margin: 20px;
+}
+
+/* Flex Container */
+
+.flex-container{
+    display: flex;              /* Enable Flexbox */
+    justify-content: center;    /* Horizontal alignment */
+    align-items: center;        /* Vertical alignment */
+    height: 300px;
+    border: 2px solid black;
+    gap: 20px;
+}
+
+/* Flex Items */
+
+.box{
+    width: 120px;
+    height: 120px;
+    background: lightblue;
+    text-align: center;
+    line-height: 120px;
+    font-weight: bold;
+}

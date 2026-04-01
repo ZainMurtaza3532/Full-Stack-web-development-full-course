@@ -45,18 +45,13 @@ let numbers = [1, 2, 3, 4, 5];
 console.log(numbers);
 
 // function
-function great(name) {
+function greet(name) {
     console.log(`Hello, ${name}!`);
 }
-
-
 
 function greet() {
   console.log("Hello!");
 }
-
-great("Zain");
-greet();
 
 
 

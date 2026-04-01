@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Callback Animation</title>
+  <style>
+    #box {
+      width: 100px;
+      height: 100px;
+      background: blue;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <div id="box"></div>
+
+  <script>
+    function moveRight(callback) {
+      let box = document.getElementById("box");
+      box.style.transition = "2s";
+      box.style.transform = "translateX(200px)";
+      setTimeout(callback, 2000); // run callback after 2s
+    }
+
+    function changeColor(callback) {
+      let box = document.getElementById("box");
+      box.style.background = "red";
+      setTimeout(callback, 1000);
+    }
+
+    function shrink(callback) {
+      let box = document.getElementById("box");
+      box.style.transform = "translateX(200px) scale(0.5)";
+      setTimeout(callback, 1000);
+    }
+
+    // Run animations in sequence
+    moveRight(() => {
+      changeColor(() => {
+        shrink(() => {
+          console.log("Animation completed!");
+        });
+      });
+    });
+  </script>
+</body>
+</html>

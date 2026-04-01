@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Callback Hell Countdown</title>
+</head>
+<body>
+  <h1 id="count"></h1>
+
+  <script>
+    function countdown(num, callback) {
+      document.getElementById("count").innerText = num;
+      if (num > 0) {
+        setTimeout(() => countdown(num - 1, callback), 1000);
+      } else {
+        callback();
+      }
+    }
+
+    // Start countdown with callback hell example
+    countdown(5, () => {
+      document.getElementById("count").innerText = "🚀 Blast Off!";
+    });
+  </script>
+</body>
+</html>

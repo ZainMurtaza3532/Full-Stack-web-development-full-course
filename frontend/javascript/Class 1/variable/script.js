@@ -1,7 +1,6 @@
 // variable 
 // var , let , const
 
-
 // var is a old way and function \ grobal scope ,  
 // let and const is a new way and block scope
 

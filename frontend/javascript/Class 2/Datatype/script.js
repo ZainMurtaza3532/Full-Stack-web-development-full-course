@@ -3,10 +3,17 @@
 // string
 let name = "Zain";
 console.log(name);
+console.log(name.length)
+console.log(name.toUpperCase())
+console.log(name.toLowerCase())
 
 // number
 let age = 21;
 console.log(age);
+
+let price = 99.99;
+console.log(price);
+
 
 // boolean
 let isOnline = true;
@@ -42,6 +49,23 @@ console.log(person);
 // array
 let numbers = [1, 2, 3, 4, 5];
 console.log(numbers);
+
+let fruits = ["Apple", "Mango", "Banana"];
+console.log(fruits);
+console.log(fruits[0]);
+console.log(fruits[1]);
+
+
+// Array Methods
+// push()
+let colors = ["Red", "Blue"];
+colors.push("Green");
+console.log(colors);
+
+// pop()
+let cars = ["BMW", "Audi", "Honda"];
+cars.pop();
+console.log(cars);
 
 // function
 function greet(name) {

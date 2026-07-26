@@ -23,7 +23,7 @@ setTimeout(() => {
         console.log("Step 4");
       }, 1000);
     }, 1000);
-  }, 1000);
+  }, 4000);
 }, 1000);
 
 console.log("End");

@@ -1,5 +1,5 @@
 let myPromise = new Promise((resolve, reject) => {
-  let success = false;
+  let success = true; // Change this to false to simulate failure
 
   if (success) {
     resolve("✅ Task completed!");

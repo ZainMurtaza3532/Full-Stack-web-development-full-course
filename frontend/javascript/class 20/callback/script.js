@@ -1,7 +1,7 @@
 // A simple function that takes another function as a parameter
 function greetUser(name, callback) {
   console.log("Hello " + name);
-  callback(); // calling the callback function
+  callback(name); // calling the callback function
 }
 
 // Callback function

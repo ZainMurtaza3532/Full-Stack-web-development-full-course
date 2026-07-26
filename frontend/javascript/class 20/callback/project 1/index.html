@@ -32,9 +32,9 @@
     // Callback function to update the clock
     function updateClock() {
       let now = new Date();
-      let hours = String(now.getHours()).padStart(2, '0');
-      let minutes = String(now.getMinutes()).padStart(2, '0');
-      let seconds = String(now.getSeconds()).padStart(2, '0');
+      let hours = String(now.getHours());
+      let minutes = String(now.getMinutes());
+      let seconds = String(now.getSeconds());
 
       document.getElementById("clock").innerText = `${hours}:${minutes}:${seconds}`;
     }

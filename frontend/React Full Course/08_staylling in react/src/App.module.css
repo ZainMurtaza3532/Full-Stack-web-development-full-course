@@ -1,0 +1,10 @@
+/* CSS Module */
+.moduleCard {
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin: 20px;
+}
+.moduleTitle {
+  color: green;
+}

@@ -1,0 +1,10 @@
+/* Normal CSS */
+.cssCard {
+  padding: 20px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin: 20px;
+}
+.cssTitle {
+  color: blue;
+}
